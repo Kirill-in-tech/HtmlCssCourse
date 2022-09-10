@@ -1,0 +1,55 @@
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.price {
+  color: rgb(0, 118, 0);
+  font-size: 18px;
+  font-weight: bold;
+}
+.cart {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  border-radius: 18px;
+  height: 35px;
+  width: 120px;
+  font-size: 15px;
+  font-weight: bold; 
+  cursor: pointer;
+  margin-right: 10px;
+}
+.buy {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  border: none;
+  border-radius: 18px;
+  height: 35px;
+  width: 120px;
+  font-size: 15px;
+  font-weight: bold; 
+  cursor: pointer;
+  margin-right: 10px;
+}
+a:link {
+  color: rgb(0, 113, 133);
+}
+a:visited {
+  color: rgb(0, 113, 133);      
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: rgb(0, 113, 133);
+}
+div {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  width: 500px;
+  margin-top: 50px;
+  border: 2px;
+  border-color: rgb(31, 224, 127);
+  border-style: solid;
+  padding: 25px;
+}
