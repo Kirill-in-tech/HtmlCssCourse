@@ -17,13 +17,31 @@
     color: rgb(49, 49, 49);    
     opacity: 0.7;
 }
-
+.google {
+    width: 500px;
+    text-align: center;
+}
 .google-pic {
     display: block;
-    width: 200px;
-    margin-left: 130px;
+    margin: auto;
+    width: 40%;
 }
-
+.google-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 13px;
+    background-color: rgba(128, 128, 128, 0.1);
+    transition: border 10ms;
+}   
+.google-button:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.3);
+    
+}
 .google-search {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px; 
@@ -34,16 +52,22 @@
     /* border-style: solid;
     border-color: grey;
     border-width: 1px; */
-    border: none;
     border-radius: 25px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.3);
     width: 400px;
-    height: 30px;
+    height: 30px;    
+}
+.google-search:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 .google-search::placeholder {
     color: rgb(49, 49, 49);    
     opacity: 0.7;
 }
+
+
 
 input:focus {
     outline: none;

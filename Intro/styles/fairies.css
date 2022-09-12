@@ -1,24 +1,55 @@
-div {
-  display: inline-block;
-  margin: 10px;
-  margin-right: 30px;
+.fairy-grid {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 270px 270px 270px;
+  column-gap: 30px;
+  row-gap: 40px;
+  align-items: center;
+}
+.fairy  {
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-  vertical-align: top;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  transition: all 200ms;
+  /* vertical-align: top; */
 }
-img {
+.fairy:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+}
+.name-row {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.profile-pic-row {
+  display: inline-block;
+  width: 50px;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+.profile-stats {
+  display: inline-block;
+  width: 150px;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50px;
+}
+.picture {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  width: 250px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
   object-position: center;  
-  transition:all 500ms;
+  transition:all 300ms;
 }
-img:hover {
+/* .picture:hover {
   height: 300px;
-}
+} */
 .pic-bell {
   object-position: 60%;
 }
@@ -29,6 +60,8 @@ img:hover {
 p {
   font-family: 'Dancing Script', cursive;
   margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 button {
   margin-left: 10px;
