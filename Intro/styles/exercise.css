@@ -1,3 +1,55 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(120, 14, 219);
+    margin: 5px;
+    column-gap: 50px;
+}
+.left-section {
+    width: 40px;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.middle-section {
+    flex: 1;
+    height: 25px;
+}
+.right-section {
+    width: 110px;
+}
+.custom-search {
+    margin: auto;
+    display: block;
+    height: 100%;
+    width: 90%;
+    max-width: 700px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.custom-button {
+    height: 35px;
+    width: 90%;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: rgb(120, 14, 219);
+    color: white;
+}
+.custom-search::placeholder {
+    color: rgb(49, 49, 49);    
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 13px;
+}
+
 .search {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -66,13 +118,9 @@
     color: rgb(49, 49, 49);    
     opacity: 0.7;
 }
-
-
-
 input:focus {
     outline: none;
 }
-
 p {
     font-family: 'Arial';
     color: rgb(97, 97, 97);
@@ -114,4 +162,73 @@ p {
     display: inline-block;
     width: 230px;
     vertical-align: middle;
+}
+
+/* ALL INBOXES */
+.inbox {
+    width: 350px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.all-inboxes {
+    color: rgba(128, 128, 128, 0.9);
+    font-family: Arial;
+    font-size: 13px;
+}
+.message {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+.message-picture {
+    display: flex;
+    align-items: center;
+    /* background-color: lightblue; */
+}
+.sender-picture {    
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin: auto;
+}
+.message-body {    
+    margin-left: 8px;
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sender-name {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+.time {    
+    font-family: Arial;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.9);
+    /* font-weight: bold; */
+}
+.middle-section {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -3px;
+    margin-bottom: -2px;
+}
+.bottom-section {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.9);
 }

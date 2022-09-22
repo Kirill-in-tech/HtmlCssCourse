@@ -9,23 +9,77 @@
   </head>
 
   <body>
-    <input class="search" type="text" placeholder="Search">
-    <br>
-    <div class="google">
-      <img class="google-pic" src="google.png">
-      <input class="google-search" type="text" placeholder="Search Google or type a URL">
-      <button class="google-button">Google Search</button>
-      <button class="google-button">I'm Feeling Lucky</button>
+
+    <div class="header">
+      <div class="left-section">Home</div>
+      <div class="middle-section">
+        <input class="custom-search" type="text" placeholder="Search">
+      </div>
+      <div class="right-section">
+        <button class="custom-button">Download</button>
+      </div>
     </div>
-    <br>
-    <p class="linked-email">Email</p>
-    <input class="linked-search" type="text">
-    <br>
-    <p class="linked-privacy">By clicking Agree & Join, you agree to the Privacy Policy.</p>
-    <button class="linked-button">Agree & Join</button>
-    <br>
-    <p class="support">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
-    <button class="yes-button">Yes</button>
-    <button class="no-button">No</button>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 500px 500px;
+      ">
+      <div>
+        <input class="search" type="text" placeholder="Search">
+        <br>
+        <div class="google">
+          <img class="google-pic" src="google.png">
+          <input class="google-search" type="text" placeholder="Search Google or type a URL">
+          <button class="google-button">Google Search</button>
+          <button class="google-button">I'm Feeling Lucky</button>
+        </div>
+        <br>
+        <p class="linked-email">Email</p>
+        <input class="linked-search" type="text">
+        <br>
+        <p class="linked-privacy">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+        <button class="linked-button">Agree & Join</button>
+        <br>
+        <p class="support">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+        <button class="yes-button">Yes</button>
+        <button class="no-button">No</button>
+      </div>
+      <div>
+
+        <div class="inbox">
+          <div class="all-inboxes">ALL INBOXES</div>
+            <div class="message">
+              <div class="message-picture">
+                <img class="sender-picture" src="thumbnails/Fawn.png">
+              </div>
+              <div class="message-body">
+                <div class="top-section">
+                  <div class="sender-name">Fawn</div>
+                  <div class="time">4:58 PM</div>
+                </div>
+                <div class="middle-section">Biggest sales of the year</div>
+                <div class="bottom-section">Hey there! We're writing to tell you about our...</div>
+              </div>
+            </div>
+
+            <div class="message">
+              <div class="message-picture">
+                <img class="sender-picture" src="thumbnails/Tinker_Bell.png">
+              </div>
+              <div class="message-body">
+                <div class="top-section">
+                  <div class="sender-name">Tinker Bell</div>
+                  <div class="time">7:43 PM</div>
+                </div>
+                <div class="middle-section">Fairy Dust Jars for SALE</div>
+                <div class="bottom-section">Good old fairy dust for low-low price of 14.99...</div>
+              </div>
+            </div>
+
+        </div>
+        
+      </div>
+    </div>
+
   </body>
 </html>
